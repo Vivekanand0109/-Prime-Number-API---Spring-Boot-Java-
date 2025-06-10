@@ -1,0 +1,12 @@
+1.Clone the Project
+  Or copy files from the Gist into a Spring Boot app.
+2.Add Spring Web Dependency in pom.xml:
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+  </dependency>
+3.Run the App:
+  ./mvnw spring-boot:run
+4.Test the Endpoint:
+  Open browser or Postman: GET http://localhost:8080/is_prime?number=17
+
